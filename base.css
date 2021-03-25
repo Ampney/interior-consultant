@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+/* navIgation */
+
+.nav {
+  width: 99vw;
+}
+
+.nav-text {
+  color: var(--bs-white);
+  border:1px solid #fff;
+  text-transform: uppercase;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-family: -apple-system;
+}
+
+.navbar-link {
+  color: var(--bs-white);
+  padding-top: 1.05rem;
+  font-family: Roboto;
+}
+
+.navbar-link a {
+  text-decoration: none;
+  color: var(--bs-white);
+}
+
+/* main=-content */
+.content {
+  width: 99vw;
+}
+
+.content-left {
+  color: var(--bs-white);
+  align-self: center;
+}
+
+.content-h2 {
+  font-family: Arial;
+  font-size: 1.95rem;
+  margin: 2rem 0;
+}
+
+.content-text {
+  font-family: Helvetica;
+  margin: 2rem 0;
+}
+
+.content a {
+  color: var(--bs-white);
+  text-decoration: none;
+}
+
+/* img styles */
+.img-main {
+  width: 70vw;
+  position: relative;
+}
+
+.img-container {
+  margin: 0;
+  padding: 0;
+}
+
+.img-sus {
+  position: absolute;
+  top: 36rem;
+  left: 35rem;
+  color: var(--bs-white);
+  width: 19rem;
+}
+
+.profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  float: left;
+  margin: 0.5rem;
+}
+
+.h5-head {
+  margin: 0.5rem;
+}
+
+.h5-text {
+  font-family: Arial;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  padding: 0.2rem;
+}
+
+footer {
+  display: flex;
+  jsutify-self: center;
+  align-self:flex-end;
+  padding: 1rem 0;
+}
